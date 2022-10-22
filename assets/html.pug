@@ -1,0 +1,26 @@
+link(rel="stylesheet" href=fcircleCss  media="defer" onload="this.media='all'")
+.fcircle_page
+  .author-content.author-content-item.fcirclePage.single(style=`background: url(${top_background}) left 28% / cover no-repeat;`)
+    .card-content
+      .author-content-item-tips 友链
+      span.author-content-item-title 最新文章订阅
+      .content-bottom
+        .tips 使用 友链朋友圈 订阅友链最新文章
+      .banner-button-group
+        a.banner-button(onclick='pjax.loadUrl("' + topLink + '")', data-pjax-state)
+          i(style='font-size: 1.5rem', class=topIcon)
+          span.banner-button-text 关于我
+  .title-h2-a
+    .title-h2-a-left
+      h2(style='padding-top:0;margin:.6rem 0 .6rem') 🎣 钓鱼
+      a.random-post-start(href='javascript:fetchRandomPost();', rel='external nofollow', style='transition-duration: 0.3s; transform: rotate(19800deg); opacity: 1;')
+        i.fa-solid.fa-arrow-rotate-right
+    .title-h2-a-right
+      a.random-post-all(href='/link/') 全部友链
+  #random-post
+  .title-h2-a
+    .title-h2-a-left
+      h2(style='padding-top:0;margin:.6rem 0 .6rem') 🐟 鱼塘
+  #fcircleContainer
+
+script(defer data-pjax src=fcircleJs)

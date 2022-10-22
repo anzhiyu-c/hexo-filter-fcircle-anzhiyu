@@ -1,0 +1,31 @@
+{
+  "name": "hexo-filter-fcircle-anzhiyu",
+  "version": "1.1.5",
+  "description": "A friend link subscribe plugin for hexo,you can also apply it in any project which is based on html",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint ."
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "files": [
+    "assets/",
+    "index.js"
+  ],
+  "keywords": [
+    "hexo",
+    "renderer",
+    "friendlink",
+    "plugins"
+  ],
+  "author": "anzhiyu-c",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "pug": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anzhiyu-c/hexo-filter-fcircle-anzhiyu.git"
+  }
+}
